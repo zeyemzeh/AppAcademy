@@ -1,0 +1,187 @@
+*{
+    font-family: Open Sans , sans-serif;
+  
+}
+
+/* header css start */
+header{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    
+}
+
+
+ul{
+    width: 60%;
+    list-style: none;
+
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 5em;
+   
+}
+.menu li a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: x-large;
+    color: #86999b;
+    
+}
+.logo{
+    width: 25em;
+    height: auto;
+    margin-top: 25px;
+}
+/* header css end */
+
+.big-title{
+    text-align: center;
+}
+
+/* about css start */
+
+.about-about {
+    display: block;
+    position: relative;
+}
+.mission{
+    width: 50%;
+    font-size: xx-large;
+
+}
+.mission-container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 90%;
+    height: 800px;
+    margin: 10em;    
+}
+.mission-container img{
+ width: 50%;
+ height: auto;
+ margin-left: 10em;
+ border-radius: 15%;
+}
+.vision{
+    width: 50%;
+    font-size: xx-large;
+
+}
+.vision-container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 90%;
+    height: 800px;
+    margin: 10em;    
+}
+.vision-container img{
+ width: 50%;
+ height: auto;
+ margin-right: 10em;
+ border-radius: 15%;
+}
+/* about css end */
+
+/* form css start */
+
+form {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+
+  }
+  
+  label{
+    font-size: x-large;
+    width: 100%;
+    margin: 1em;
+  }
+ 
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    min-height: 3em;
+  }
+  
+  input, textarea {
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 2em auto;
+    height: 5em;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+
+/* form css end */
+
+
+/*footer css start*/
+footer{
+    
+    background-color: #F2F1F2;
+    text-align: center;
+    
+ }
+ footer h2{
+     color:#355c7d;
+ }
+ footer div{
+     display: inline-block;
+     width: 30%;
+     margin: 20px;
+     
+     
+ }
+ .follow-us{
+     text-align: center;
+    
+ 
+ }
+ .social-media{
+     list-style: none;
+     text-align: center;
+     
+ }
+ .social-media li{
+   
+     display: inline-block;
+  
+ 
+     
+ 
+ }
+ .social-media a{
+     color: #0d030d;
+     text-decoration: none;
+     font-size: 50px;
+     border: #0d030d solid 1px;
+     margin: 5px;
+     padding: 5px;
+     
+ }
+ /*footer css end*/

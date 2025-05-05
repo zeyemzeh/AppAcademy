@@ -1,0 +1,214 @@
+*{
+    font-family: Open Sans , sans-serif;
+  
+}
+
+/* header css start */
+header{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    
+}
+
+
+ul{
+    width: 60%;
+    list-style: none;
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 5em;
+   
+}
+.menu li a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: x-large;
+    color: #86999b;
+    
+}
+.logo{
+    width: 25em;
+    height: auto;
+    margin-top: 25px;
+}
+/* header css end */
+
+.main-img{
+    width: 100%;
+    height: 60em;
+}
+
+/*service css start */
+.service{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+.service div{
+    display: inline-block;
+    width: 25%;
+    height: 30em;
+    text-align: center;
+    color: #86999b;
+   
+    
+}
+.service img {
+    width: 90px;
+    height: 90px;
+}
+
+.service div h2{
+    font-weight: 600;
+    font-size: xx-large;
+   
+}
+.service div p{
+    font-size: large;
+    margin: 4em 0 4em 0;
+}
+
+/*service css end */
+
+/* programs css start */
+.programs{
+    text-align: center;
+    width: 100%;
+    height: 20em;
+}
+.programs img{
+    width: 20%;
+    margin: 3em 5em 3em 5em;
+ 
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+/* programs css end */
+
+.why-magnimind{
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 3em;
+
+}
+
+/*blogs css start*/
+
+
+.corner-blog-date{
+    display: block;
+    width: 6em;
+    height: 5em;
+    background-color: #355c7d;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 5px 2px;
+    border-radius: 10%;
+    float: left;
+    margin-right: 0.5%;
+}
+.corner-blog-date :first-child{
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+.blogs {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 50em;
+    padding: 2em;
+   
+
+}
+.blog-div{
+    width: 35%;
+    
+}
+
+.blog-summary {
+   
+    width: 100%;
+    height: 30em;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    border: 0.5px solid #F2F1F2;;
+    color: #355c7d;
+    font-size: x-large;
+    margin-left: 5em;
+    
+}
+.blog-summary img{
+    
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+
+}
+.our-blogs{
+    margin-top: 40em;
+}
+/*blogs css end*/
+
+/*footer css start*/
+footer{
+    
+   background-color: #F2F1F2;
+   text-align: center;
+   
+}
+footer h2{
+    color:#355c7d;
+}
+footer div{
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    
+    
+}
+.follow-us{
+    text-align: center;
+   
+
+}
+.social-media{
+    list-style: none;
+    text-align: center;
+    
+}
+.social-media li{
+  
+    display: inline-block;
+ 
+
+    
+
+}
+.social-media a{
+    color: #0d030d;
+    text-decoration: none;
+    font-size: 50px;
+    border: #0d030d solid 1px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+/*footer css end*/

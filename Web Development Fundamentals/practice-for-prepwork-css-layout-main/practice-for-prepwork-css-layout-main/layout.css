@@ -1,0 +1,51 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+form {
+    margin: 0 auto;
+    padding: 5em 30em;
+}
+fieldset{
+
+    padding: 5%;
+
+}
+#firstName, #lastName, #email{
+
+    width: 90%;
+    height: 2em;
+}
+
+textarea, label, p
+{   
+    display: block;
+    width: 90%;
+    margin: 10px 0;
+    font-weight: bold;
+  
+}
+.choose *{
+
+    display: inline;
+    vertical-align: middle;
+    margin: 30px 0px;
+    
+  
+    
+} 
+
+#submit{
+    margin: 20px 0px;
+    width: 150px;
+    height: 40px;
+
+}
+legend{
+    text-align: center;
+    font-size: xx-large;
+  
+}
